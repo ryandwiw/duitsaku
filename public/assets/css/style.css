@@ -1,0 +1,105 @@
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin-left: auto !important;
+    }
+
+    .navbar-nav a {
+        margin: 0;
+        text-align: left !important;
+        background-color: rgba(169, 255, 255, 0.8) !important;
+    }
+}
+
+.rounded-circle img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.5s ease-in-out;
+    margin: auto;
+}
+
+.scrolled {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 10%;
+    color: #ffffff; /* Warna teks putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+}
+.navbar-brand:hover {
+    color: #ffd700 !important; /* Warna kuning saat di-hover */
+}
+
+.navbar-nav {
+    margin-left: 40%; 
+    margin-right: auto;
+}
+
+.navbar-nav a {
+    margin-right: 15px;
+    color: #ffffff ; /* Warna teks putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks */
+}
+.navbar-nav a:hover {
+    color: #ffd700 !important;
+    text-decoration: none;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.owl-carousel .item {
+    height: 600px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.owl-carousel .item img {
+    width: 100%; /* Pastikan gambar penuh di dalam slide */
+}
+
+
+.owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-dot {
+    display: inline-block;
+    margin: 0 5px; /* Jarak antar dot */
+    width: 10px;
+    height: 10px;
+    background-color: #ccc; /* Warna default dot */
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.owl-dot.active {
+    background-color: #f00; /* Warna saat dot aktif */
+}
+
+.custom-spacing {
+    margin-right: 10px; /* Adjust the value as needed */
+}
